@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Classroom Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <img src="https://ssl.gstatic.com/classroom/ic_product_classroom_32.png" style="margin: 0 20px 20px 20px;">
+    <a href="#" class="active">RL210 - Pemrograman Web</a>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <img src="https://ssl.gstatic.com/classroom/ic_product_classroom_32.png" alt="Logo">
+      <div class="header-title">2305929 - Syahdan Alfiansyah<br><small>2023 RPL 4B</small></div>
+    </div>
+    <div class="profile">S</div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <div class="banner">
+      <div>
+        <h1>2305929 - Syahdan Alfiansyah</h1>
+        <p>2023 RPL 4B</p>
+      </div>
+    </div>
+
+    <div class="layout">
+      <div class="side-widgets">
+        <div class="card">
+          <strong>Quick Links</strong>
+          <button class="link-btn">+ Add link</button>
+        </div>
+
+        <div class="card">
+          <div class="meet-header">
+            <img src="https://www.gstatic.com/meet/meet_logo_light_2020q4_48dp.png" alt="Meet" class="meet-logo">
+            <span>Meet</span>
+            <span class="dots">⋮</span>
+          </div>
+          <button class="link-btn">Generate link</button>
+        </div>
+
+        <div class="card upcoming">
+          <strong>Upcoming</strong>
+          <p>Woohoo, no work due soon!<br><a href="#">View all</a></p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="stream-card">
+          <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <span class="profile" style="margin-right:10px;">S</span>
+            <textarea id="announcement" placeholder="Announce something to your class" rows="3" style="flex:1; padding:10px; border-radius:5px; border:1px solid #ccc;"></textarea>
+          </div>
+          <button id="submitBtn" style="margin-left: 50px; padding: 8px 15px; background-color: #5c6bc0; color: white; border: none; border-radius: 5px;">Post</button>
+          <div id="outputBox" style="margin-top: 15px; background: #e8f0fe; padding: 10px; border-radius: 5px; display: none;"></div>
+        </div>
+
+        <a href="detail-tugas.html" class="assignment-card">
+          <div class="icon">
+            📋
+          </div>
+          <div class="assignment-info">
+            <strong>Tekmulogi posted a new assignment:</strong> UTS Pemrograman WEB
+            <div class="date">Mar 25 (Edited Mar 25)</div>
+          </div>
+          <div class="dots">⋮</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
